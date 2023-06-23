@@ -1,0 +1,34 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Jogo de Bingo</title>
+  <link rel="stylesheet" href="style.css">
+</head>
+
+<body>
+  <div class="container">
+    <h1>Jogo de Bingo</h1>
+
+    <div class="cartela" id="cartela"></div>
+
+    <div class="botoes">
+      <button class="botao" onclick="gerarCartela()">Gerar Cartela</button>
+      <button class="botao" onclick="reiniciar()" disabled>Reiniciar</button>
+      <button class="botao" onclick="jogar()" disabled>Jogar</button>
+    </div>
+
+    <div class="jogador" id="jogador"></div>
+
+    <div class="numeros-sorteados" id="numeros-sorteados">
+      <h3>Números Sorteados</h3>
+      <ul></ul>
+    </div>
+  </div>
+
+  <script src="script.js"></script>
+</body>
+
+</html>
